@@ -1,5 +1,4 @@
 package Homework5.Calculator;
-
 public class ComplexNumber {
     private final double real;
     private final double imaginary;
