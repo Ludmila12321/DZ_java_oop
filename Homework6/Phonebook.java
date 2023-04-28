@@ -2,14 +2,14 @@ package Homework6;
 
 import java.io.*;
 import java.util.*;
+import java.util.Scanner;
 
 public class Phonebook {
     private static final Scanner scanner = new Scanner(System.in);
     private static final List<Contact> contacts = new ArrayList<>();
 
     public static void main(String[] args) {
-        private static final Scanner scanner = new Scanner(System.in);
-        private static final List<Contact> contacts = new ArrayList<>();
+        
         System.out.println("Добро пожаловать в телефонный справочник!");
 
         while (true) {
@@ -133,5 +133,5 @@ public class Phonebook {
         }
         scanner.close();
     }
-
 }
+
